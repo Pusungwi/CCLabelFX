@@ -40,7 +40,7 @@
         ccColor4B shadowColor = ccc4(255,0,0,255);
         ccColor4B fillColor = ccc4(0,0,255,255);
         
-        CCLabelFX *label1 = [CCLabelFX labelWithString:@"Testing Labels with shadows" 
+        CCLabelFX *label1 = [CCLabelFX labelWithString:@"그냥 잘 써 지나 봅시다." 
                                               fontName:@"Marker Felt" 
                                               fontSize:30 
                                           shadowOffset:CGSizeMake(-2,-2) 
@@ -53,7 +53,7 @@
         menu.position = ccp(size.width*0.5, size.height*0.85);
         [self addChild:menu];
         
-        CCLabelFX *label2 = [CCLabelFX labelWithString:@"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque orci enim, laoreet ac varius et, hendrerit nec lacus. Pellentesque tincidunt blandit ante sit amet lobortis." 
+        CCLabelFX *label2 = [CCLabelFX labelWithString:@"동해물과 백두산이 마르고 닳도록 하느님이 보우하ㅏ 우리나라만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세." 
                                             dimensions:CGSizeMake(350, 100) 
                                              alignment:CCTextAlignmentCenter 
                                               fontName:@"Marker Felt" 
@@ -64,7 +64,7 @@
         label2.position = ccp(size.width*0.5, size.height*0.5);
         label2.fillColor = ccc4(255,255,0,255); 
         
-        CCLabelFX *label3 = [CCLabelFX labelWithString:@"Custom TTF Label" 
+        CCLabelFX *label3 = [CCLabelFX labelWithString:@"ttf" 
                                               fontName:@"DomesticManners.ttf" 
                                               fontSize:30 
                                           shadowOffset:CGSizeMake(-1.5,-1.5) 
