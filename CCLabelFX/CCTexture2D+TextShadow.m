@@ -265,7 +265,7 @@ float addedPixels =0.0;
     
     CGSize dim = [self transformDimensions:dimensions offset:NSSizeToCGSize(shadowSize) blur:shadowBlur];
     
-    return [self initWithString:string dimensions:dim alignment:CCTextAlignmentCenter attributedString:stringWithAttributes shadowOffset:shadowSize 
+    return [self initWithString:string dimensions:dim alignment:alignment attributedString:stringWithAttributes shadowOffset:shadowSize 
                      shadowBlur:shadowBlur shadowColor:shadowColor fillColor:fillColor];
     
 #endif // Mac
